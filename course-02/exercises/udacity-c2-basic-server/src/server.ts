@@ -86,6 +86,15 @@ import { Car, cars as cars_list } from './cars';
   // it should require id
   // it should fail gracefully if no matching car is found
 
+  app.get("/cars/:id", (req: Request, res: Response) => {
+    let { id } = req.params;
+    let cars_list = cars;
+    cars_list = cars_list.filter((car) => car.id == id);
+    if (!id || cars_list.length === 0){
+      return res.status(400).send(`Please enter a valid id.`)
+    }
+    return res.status(200).send(cars_list);
+  });
  
 
   /// @TODO Add an endpoint to post a new car to our list
