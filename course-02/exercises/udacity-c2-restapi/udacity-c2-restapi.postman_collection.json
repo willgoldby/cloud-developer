@@ -568,53 +568,6 @@
 						"description": "Post a new item to the feed"
 					},
 					"response": []
-				},
-				{
-					"name": "Public",
-					"item": [
-						{
-							"name": "/api/v0/feed will",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "1ad01629-c164-41ef-9d19-0a5fd13274af",
-										"exec": [
-											"pm.test(\"Status code is 401\", function () {",
-											"    pm.response.to.have.status(401);",
-											"});",
-											"",
-											"pm.test(\"Response time is less than 200ms\", function () {",
-											"    pm.expect(pm.response.responseTime).to.be.below(200);",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
-							"request": {
-								"method": "PATCH",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
-								"url": {
-									"raw": "{{host}}/api/v0/feed",
-									"host": [
-										"{{host}}"
-									],
-									"path": [
-										"api",
-										"v0",
-										"feed"
-									]
-								},
-								"description": "Patch something"
-							},
-							"response": []
-						}
-					]
 				}
 			],
 			"auth": {

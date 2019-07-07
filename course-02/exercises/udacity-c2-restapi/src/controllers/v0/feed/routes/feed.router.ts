@@ -29,6 +29,8 @@ router.patch('/:id',
     requireAuth, 
     async (req: Request, res: Response) => {
         //@TODO try it yourself
+        let { id } = req.params;
+        console.log(id);
         res.send(500).send("not implemented")
 });
 
