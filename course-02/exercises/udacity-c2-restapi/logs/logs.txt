@@ -8,10 +8,10 @@
     at emitErrorNT (internal/streams/destroy.js:91:8)
     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
     at process._tickCallback (internal/process/next_tick.js:63:19)
-(node:4148) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-(node:4148) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-(node:4166) UnhandledPromiseRejectionWarning: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:5432
-    at connection.connect.err (/var/app/current/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:170:24)
+(node:4200) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:4200) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:4355) UnhandledPromiseRejectionWarning: SequelizeConnectionError: connect ETIMEDOUT 172.31.1.124:5432
+    at connection.connect.err (/var/app/current/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:182:24)
     at Connection.connectingErrorHandler (/var/app/current/node_modules/pg/lib/client.js:174:14)
     at Connection.emit (events.js:198:13)
     at Connection.EventEmitter.emit (domain.js:448:20)
@@ -21,10 +21,10 @@
     at emitErrorNT (internal/streams/destroy.js:91:8)
     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
     at process._tickCallback (internal/process/next_tick.js:63:19)
-(node:4166) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-(node:4166) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-(node:4184) UnhandledPromiseRejectionWarning: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:5432
-    at connection.connect.err (/var/app/current/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:170:24)
+(node:4355) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:4355) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:4430) UnhandledPromiseRejectionWarning: SequelizeConnectionError: connect ETIMEDOUT 172.31.1.124:5432
+    at connection.connect.err (/var/app/current/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:182:24)
     at Connection.connectingErrorHandler (/var/app/current/node_modules/pg/lib/client.js:174:14)
     at Connection.emit (events.js:198:13)
     at Connection.EventEmitter.emit (domain.js:448:20)
@@ -34,10 +34,10 @@
     at emitErrorNT (internal/streams/destroy.js:91:8)
     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
     at process._tickCallback (internal/process/next_tick.js:63:19)
-(node:4184) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-(node:4184) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-(node:4202) UnhandledPromiseRejectionWarning: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:5432
-    at connection.connect.err (/var/app/current/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:170:24)
+(node:4430) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:4430) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:4509) UnhandledPromiseRejectionWarning: SequelizeConnectionError: connect ETIMEDOUT 172.31.1.124:5432
+    at connection.connect.err (/var/app/current/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:182:24)
     at Connection.connectingErrorHandler (/var/app/current/node_modules/pg/lib/client.js:174:14)
     at Connection.emit (events.js:198:13)
     at Connection.EventEmitter.emit (domain.js:448:20)
@@ -47,10 +47,10 @@
     at emitErrorNT (internal/streams/destroy.js:91:8)
     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
     at process._tickCallback (internal/process/next_tick.js:63:19)
-(node:4202) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-(node:4202) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-(node:4220) UnhandledPromiseRejectionWarning: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:5432
-    at connection.connect.err (/var/app/current/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:170:24)
+(node:4509) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:4509) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:4587) UnhandledPromiseRejectionWarning: SequelizeConnectionError: connect ETIMEDOUT 172.31.1.124:5432
+    at connection.connect.err (/var/app/current/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:182:24)
     at Connection.connectingErrorHandler (/var/app/current/node_modules/pg/lib/client.js:174:14)
     at Connection.emit (events.js:198:13)
     at Connection.EventEmitter.emit (domain.js:448:20)
@@ -60,10 +60,10 @@
     at emitErrorNT (internal/streams/destroy.js:91:8)
     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
     at process._tickCallback (internal/process/next_tick.js:63:19)
-(node:4220) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-(node:4220) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-(node:4238) UnhandledPromiseRejectionWarning: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:5432
-    at connection.connect.err (/var/app/current/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:170:24)
+(node:4587) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:4587) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:5697) UnhandledPromiseRejectionWarning: SequelizeConnectionError: connect ETIMEDOUT 172.31.1.124:5432
+    at connection.connect.err (/var/app/current/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:182:24)
     at Connection.connectingErrorHandler (/var/app/current/node_modules/pg/lib/client.js:174:14)
     at Connection.emit (events.js:198:13)
     at Connection.EventEmitter.emit (domain.js:448:20)
@@ -73,10 +73,10 @@
     at emitErrorNT (internal/streams/destroy.js:91:8)
     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
     at process._tickCallback (internal/process/next_tick.js:63:19)
-(node:4238) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-(node:4238) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-(node:4256) UnhandledPromiseRejectionWarning: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:5432
-    at connection.connect.err (/var/app/current/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:170:24)
+(node:5697) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:5697) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:5834) UnhandledPromiseRejectionWarning: SequelizeConnectionError: connect ETIMEDOUT 172.31.1.124:5432
+    at connection.connect.err (/var/app/current/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:182:24)
     at Connection.connectingErrorHandler (/var/app/current/node_modules/pg/lib/client.js:174:14)
     at Connection.emit (events.js:198:13)
     at Connection.EventEmitter.emit (domain.js:448:20)
@@ -86,10 +86,10 @@
     at emitErrorNT (internal/streams/destroy.js:91:8)
     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
     at process._tickCallback (internal/process/next_tick.js:63:19)
-(node:4256) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-(node:4256) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-(node:4274) UnhandledPromiseRejectionWarning: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:5432
-    at connection.connect.err (/var/app/current/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:170:24)
+(node:5834) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:5834) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:5909) UnhandledPromiseRejectionWarning: SequelizeConnectionError: connect ETIMEDOUT 172.31.1.124:5432
+    at connection.connect.err (/var/app/current/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:182:24)
     at Connection.connectingErrorHandler (/var/app/current/node_modules/pg/lib/client.js:174:14)
     at Connection.emit (events.js:198:13)
     at Connection.EventEmitter.emit (domain.js:448:20)
@@ -99,38 +99,62 @@
     at emitErrorNT (internal/streams/destroy.js:91:8)
     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
     at process._tickCallback (internal/process/next_tick.js:63:19)
-(node:4274) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-(node:4274) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:5909) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:5909) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
 
 
 
 -------------------------------------
 /var/log/nginx/error.log
 -------------------------------------
-2019/07/07 22:33:28 [error] 3689#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 190.122.144.38, server: , request: "GET / HTTP/1.0", upstream: "http://127.0.0.1:8081/"
-2019/07/07 22:58:37 [error] 3689#0: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 178.143.107.131, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "3.130.155.43"
+2019/07/10 00:12:08 [error] 4214#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com"
+2019/07/10 00:12:08 [error] 4214#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com", referrer: "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/"
+2019/07/10 00:12:40 [error] 4214#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com", referrer: "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/"
+2019/07/10 00:12:45 [error] 4214#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com"
+2019/07/10 00:12:45 [error] 4214#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com", referrer: "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/"
+2019/07/10 00:13:05 [error] 4214#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com"
+2019/07/10 00:13:05 [error] 4214#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com", referrer: "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/"
+2019/07/10 00:13:13 [error] 4214#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET /api/v0/feed HTTP/1.1", upstream: "http://127.0.0.1:8081/api/v0/feed", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com"
+2019/07/10 00:13:14 [error] 4214#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com", referrer: "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/api/v0/feed"
+2019/07/10 00:18:08 [error] 4214#0: *14 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com"
+2019/07/10 00:18:08 [error] 4214#0: *14 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com", referrer: "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/"
+2019/07/10 00:22:32 [error] 5094#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com"
+2019/07/10 00:22:32 [error] 5094#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com", referrer: "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/"
+2019/07/10 00:24:35 [error] 5712#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com"
+2019/07/10 00:24:35 [error] 5712#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com", referrer: "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/"
+2019/07/10 00:25:40 [error] 5712#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com"
+2019/07/10 00:25:40 [error] 5712#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com", referrer: "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/"
+2019/07/10 00:26:44 [error] 5712#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com"
+2019/07/10 00:26:44 [error] 5712#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com", referrer: "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/"
+2019/07/10 00:29:21 [error] 5712#0: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com"
+2019/07/10 00:29:21 [error] 5712#0: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com", referrer: "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/"
+2019/07/10 00:29:44 [error] 5712#0: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com"
+2019/07/10 00:29:45 [error] 5712#0: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 74.111.110.109, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com", referrer: "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/"
 
 
 
 -------------------------------------
 /var/log/eb-activity.log
 -------------------------------------
-  status: Unknown job: nginx
+[2019-07-10T00:23:11.996Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook/02start_xray.sh] : Completed activity.
+[2019-07-10T00:23:11.997Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook/10stop.sh] : Starting activity...
+[2019-07-10T00:23:15.469Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook/10stop.sh] : Completed activity. Result:
+  + /opt/elasticbeanstalk/containerfiles/ebnode.py --action stop-all
+  nodejs stop/waiting
+  nginx stop/waiting
   status: Unknown job: httpd
   status: Unknown job: httpd
+  Job already stopped. Not stopping again.
+  Job already stopped. Not stopping again.
   Did not find to find status of init job. Assuming stopped.
   Did not find to find status of init job. Assuming stopped.
-  Did not find to find status of init job. Assuming stopped.
-  Did not find to find status of init job. Assuming stopped.
-  Did not find to find status of init job. Assuming stopped.
-  Did not find to find status of init job. Assuming stopped.
-[2019-07-07T21:33:00.862Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/AppDeployEnactHook/20clean.sh] : Starting activity...
-[2019-07-07T21:33:00.959Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/AppDeployEnactHook/20clean.sh] : Completed activity. Result:
+[2019-07-10T00:23:15.469Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook/20clean.sh] : Starting activity...
+[2019-07-10T00:23:15.649Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook/20clean.sh] : Completed activity. Result:
   ++ /opt/elasticbeanstalk/bin/get-config container -k app_base_dir
   + EB_APP_BASE_DIR=/var/app
   + rm -rf /var/app
-[2019-07-07T21:33:00.959Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/AppDeployEnactHook/30app_deploy.sh] : Starting activity...
-[2019-07-07T21:33:01.378Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/AppDeployEnactHook/30app_deploy.sh] : Completed activity. Result:
+[2019-07-10T00:23:15.649Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook/30app_deploy.sh] : Starting activity...
+[2019-07-10T00:23:16.044Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook/30app_deploy.sh] : Completed activity. Result:
   ++ /opt/elasticbeanstalk/bin/get-config container -k app_base_dir
   + EB_APP_BASE_DIR=/var/app
   ++ /opt/elasticbeanstalk/bin/get-config container -k app_staging_dir
@@ -142,8 +166,8 @@
   + mkdir /var/app
   + mv /tmp/deployment/application /var/app/current
   + chown -R nodejs:nodejs /var/app/current
-[2019-07-07T21:33:01.378Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/AppDeployEnactHook/40config_deploy.sh] : Starting activity...
-[2019-07-07T21:33:01.490Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/AppDeployEnactHook/40config_deploy.sh] : Completed activity. Result:
+[2019-07-10T00:23:16.045Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook/40config_deploy.sh] : Starting activity...
+[2019-07-10T00:23:16.149Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook/40config_deploy.sh] : Completed activity. Result:
   ++ /opt/elasticbeanstalk/bin/get-config container -k config_staging_dir
   + EB_CONFIG_STAGING_DIR=/tmp/deployment/config
   ++ ls /tmp/deployment/config
@@ -167,21 +191,21 @@
   ++ echo '#etc#nginx#nginx.conf'
   + FILE_NAME=/etc/nginx/nginx.conf
   + /bin/cp /tmp/deployment/config/#etc#nginx#nginx.conf /etc/nginx/nginx.conf
-[2019-07-07T21:33:01.490Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/AppDeployEnactHook/50start.sh] : Starting activity...
-[2019-07-07T21:33:03.056Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/AppDeployEnactHook/50start.sh] : Completed activity. Result:
+[2019-07-10T00:23:16.149Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook/50start.sh] : Starting activity...
+[2019-07-10T00:23:17.600Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook/50start.sh] : Completed activity. Result:
   + /opt/elasticbeanstalk/containerfiles/ebnode.py --action start-all
-  nodejs start/running, process 3666
-  nginx start/running, process 3681
-[2019-07-07T21:33:03.057Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/AppDeployEnactHook/60monitor_pids.sh] : Starting activity...
-[2019-07-07T21:33:03.517Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/AppDeployEnactHook/60monitor_pids.sh] : Completed activity. Result:
+  nodejs start/running, process 5690
+  nginx start/running, process 5705
+[2019-07-10T00:23:17.600Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook/60monitor_pids.sh] : Starting activity...
+[2019-07-10T00:23:18.035Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook/60monitor_pids.sh] : Completed activity. Result:
   + '[' -d /etc/healthd ']'
   ++ /opt/elasticbeanstalk/bin/get-config optionsettings --namespace aws:elasticbeanstalk:container:nodejs --option-name ProxyServer
   + PROXY_SERVER=nginx
   + case "$PROXY_SERVER" in
   + /opt/elasticbeanstalk/bin/healthd-track-pidfile --proxy nginx
   + /opt/elasticbeanstalk/bin/healthd-track-pidfile --name application --location /var/run/nodejs.pid
-[2019-07-07T21:33:03.518Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/AppDeployEnactHook/70restart_healthd.sh] : Starting activity...
-[2019-07-07T21:33:05.887Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/AppDeployEnactHook/70restart_healthd.sh] : Completed activity. Result:
+[2019-07-10T00:23:18.035Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook/70restart_healthd.sh] : Starting activity...
+[2019-07-10T00:23:20.388Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook/70restart_healthd.sh] : Completed activity. Result:
   + '[' -d /etc/healthd ']'
   ++ /opt/elasticbeanstalk/bin/get-config optionsettings --namespace aws:elasticbeanstalk:container:nodejs --option-name ProxyServer
   + PROXY_SERVER=nginx
@@ -190,145 +214,163 @@
   ++ grep -L /var/log/nginx/healthd/application.log /etc/healthd/config.yaml
   + '[' ']'
   + /opt/elasticbeanstalk/bin/healthd-restart
-[2019-07-07T21:33:05.887Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/AppDeployEnactHook] : Completed activity. Result:
+[2019-07-10T00:23:20.388Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployEnactHook] : Completed activity. Result:
   Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/enact.
-[2019-07-07T21:33:05.887Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/AppDeployPostHook] : Starting activity...
-[2019-07-07T21:33:05.888Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/AppDeployPostHook] : Completed activity. Result:
+[2019-07-10T00:23:20.388Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployPostHook] : Starting activity...
+[2019-07-10T00:23:20.388Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1/AppDeployPostHook] : Completed activity. Result:
   Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/post.
-[2019-07-07T21:33:05.888Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/PostInitHook] : Starting activity...
-[2019-07-07T21:33:05.888Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1/PostInitHook] : Completed activity. Result:
-  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/postinit.
-[2019-07-07T21:33:05.888Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/StartupStage1] : Completed activity. Result:
-  Application deployment - Command CMD-Startup stage 1 completed
-[2019-07-07T21:33:05.888Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/AddonsAfter] : Starting activity...
-[2019-07-07T21:33:05.888Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/AddonsAfter/ConfigLogRotation] : Starting activity...
-[2019-07-07T21:33:05.888Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/AddonsAfter/ConfigLogRotation/10-config.sh] : Starting activity...
-[2019-07-07T21:33:06.184Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/AddonsAfter/ConfigLogRotation/10-config.sh] : Completed activity. Result:
+[2019-07-10T00:23:20.388Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AppDeployStage1] : Completed activity. Result:
+  Application version switch - Command CMD-AppDeploy stage 1 completed
+[2019-07-10T00:23:20.388Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AddonsAfter] : Starting activity...
+[2019-07-10T00:23:20.388Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AddonsAfter/ConfigLogRotation] : Starting activity...
+[2019-07-10T00:23:20.388Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AddonsAfter/ConfigLogRotation/10-config.sh] : Starting activity...
+[2019-07-10T00:23:20.559Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AddonsAfter/ConfigLogRotation/10-config.sh] : Completed activity. Result:
   Disabled forced hourly log rotation.
-[2019-07-07T21:33:06.184Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/AddonsAfter/ConfigLogRotation] : Completed activity. Result:
+[2019-07-10T00:23:20.559Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AddonsAfter/ConfigLogRotation] : Completed activity. Result:
   Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logpublish/hooks/config.
-[2019-07-07T21:33:06.184Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1/AddonsAfter] : Completed activity.
-[2019-07-07T21:33:06.184Z] INFO  [3176]  - [Application deployment udagram-goldby-dev-source@1] : Completed activity. Result:
-  Application deployment - Command CMD-Startup succeeded
-[2019-07-07T23:49:02.693Z] INFO  [8525]  - [CMD-TailLogs] : Starting activity...
-[2019-07-07T23:49:02.693Z] INFO  [8525]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
-[2019-07-07T23:49:02.693Z] INFO  [8525]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
-[2019-07-07T23:49:02.694Z] INFO  [8525]  - [CMD-TailLogs/TailLogs] : Starting activity...
-[2019-07-07T23:49:02.694Z] INFO  [8525]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+[2019-07-10T00:23:20.559Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8/AddonsAfter] : Completed activity.
+[2019-07-10T00:23:20.559Z] INFO  [5180]  - [Application update udagram-goldby-dev-source-3@8] : Completed activity. Result:
+  Application update - Command CMD-AppDeploy succeeded
+[2019-07-10T00:30:30.012Z] INFO  [6030]  - [CMD-TailLogs] : Starting activity...
+[2019-07-10T00:30:30.013Z] INFO  [6030]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2019-07-10T00:30:30.013Z] INFO  [6030]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2019-07-10T00:30:30.013Z] INFO  [6030]  - [CMD-TailLogs/TailLogs] : Starting activity...
+[2019-07-10T00:30:30.013Z] INFO  [6030]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
 
 
 
 -------------------------------------
 /var/log/nginx/access.log
 -------------------------------------
-190.122.144.38 - - [07/Jul/2019:22:33:28 +0000] "GET / HTTP/1.0" 502 173 "-" "-" "-"
-178.143.107.131 - - [07/Jul/2019:22:58:37 +0000] "GET / HTTP/1.1" 502 173 "-" "-" "-"
+74.111.110.109 - - [10/Jul/2019:00:12:08 +0000] "GET / HTTP/1.1" 502 575 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:12:08 +0000] "GET /favicon.ico HTTP/1.1" 502 575 "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:12:40 +0000] "GET /favicon.ico HTTP/1.1" 502 575 "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:12:45 +0000] "GET / HTTP/1.1" 502 575 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:12:45 +0000] "GET /favicon.ico HTTP/1.1" 502 575 "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:13:05 +0000] "GET / HTTP/1.1" 502 575 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:13:05 +0000] "GET /favicon.ico HTTP/1.1" 502 575 "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:13:13 +0000] "GET /api/v0/feed HTTP/1.1" 502 575 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:13:14 +0000] "GET /favicon.ico HTTP/1.1" 502 575 "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/api/v0/feed" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:18:08 +0000] "GET / HTTP/1.1" 502 575 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:18:08 +0000] "GET /favicon.ico HTTP/1.1" 502 575 "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:22:32 +0000] "GET / HTTP/1.1" 502 575 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:22:32 +0000] "GET /favicon.ico HTTP/1.1" 502 575 "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:24:35 +0000] "GET / HTTP/1.1" 502 575 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:24:35 +0000] "GET /favicon.ico HTTP/1.1" 502 575 "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:25:40 +0000] "GET / HTTP/1.1" 502 575 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:25:40 +0000] "GET /favicon.ico HTTP/1.1" 502 575 "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:26:44 +0000] "GET / HTTP/1.1" 502 575 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:26:44 +0000] "GET /favicon.ico HTTP/1.1" 502 575 "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:29:21 +0000] "GET / HTTP/1.1" 502 575 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:29:21 +0000] "GET /favicon.ico HTTP/1.1" 502 575 "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:29:44 +0000] "GET / HTTP/1.1" 502 575 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+74.111.110.109 - - [10/Jul/2019:00:29:45 +0000] "GET /favicon.ico HTTP/1.1" 502 575 "http://udagram-goldby-dev1.xaug2xwjbq.us-east-2.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
 
 
 
 -------------------------------------
 /var/log/eb-commandprocessor.log
 -------------------------------------
-[2019-07-07T21:32:06.274Z] DEBUG [2849]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||ManifestFileS3Key..
-[2019-07-07T21:32:06.530Z] INFO  [2849]  : Finding latest manifest from bucket 'elasticbeanstalk-us-east-2-874785680383' with prefix 'resources/environments/e-2amauny7ei/_runtime/versions/manifest_'.
-[2019-07-07T21:32:06.663Z] INFO  [2849]  : Found manifest with key 'resources/environments/e-2amauny7ei/_runtime/versions/manifest_1562535057618'.
-[2019-07-07T21:32:06.680Z] INFO  [2849]  : Updated manifest cache: deployment ID 1 and serial 1.
-[2019-07-07T21:32:06.680Z] DEBUG [2849]  : Loaded definition of Command CMD-PreInit.
-[2019-07-07T21:32:06.680Z] INFO  [2849]  : Executing Initialization
-[2019-07-07T21:32:06.681Z] INFO  [2849]  : Executing command: CMD-PreInit...
-[2019-07-07T21:32:06.681Z] INFO  [2849]  : Executing command CMD-PreInit activities...
-[2019-07-07T21:32:06.681Z] DEBUG [2849]  : Setting environment variables..
-[2019-07-07T21:32:06.681Z] INFO  [2849]  : Running AddonsBefore for command CMD-PreInit...
-[2019-07-07T21:32:09.829Z] DEBUG [2849]  : Running stages of Command CMD-PreInit from stage 0 to stage 0...
-[2019-07-07T21:32:09.829Z] INFO  [2849]  : Running stage 0 of command CMD-PreInit...
-[2019-07-07T21:32:09.829Z] DEBUG [2849]  : Loaded 2 actions for stage 0.
-[2019-07-07T21:32:09.829Z] INFO  [2849]  : Running 1 of 2 actions: DownloadSourceBundle...
-[2019-07-07T21:32:10.149Z] INFO  [2849]  : Running 2 of 2 actions: PreInitHook...
-[2019-07-07T21:32:12.871Z] INFO  [2849]  : Running AddonsAfter for command CMD-PreInit...
-[2019-07-07T21:32:12.871Z] INFO  [2849]  : Command CMD-PreInit succeeded!
-[2019-07-07T21:32:12.872Z] INFO  [2849]  : Command processor returning results: 
+[2019-07-10T00:21:36.831Z] DEBUG [4702]  : Loaded definition of Command CMD-ConfigDeploy.
+[2019-07-10T00:21:36.832Z] INFO  [4702]  : Executing Configuration update
+[2019-07-10T00:21:36.832Z] INFO  [4702]  : Executing command: CMD-ConfigDeploy...
+[2019-07-10T00:21:36.832Z] INFO  [4702]  : Executing command CMD-ConfigDeploy activities...
+[2019-07-10T00:21:36.832Z] DEBUG [4702]  : Setting environment variables..
+[2019-07-10T00:21:36.832Z] INFO  [4702]  : Running AddonsBefore for command CMD-ConfigDeploy...
+[2019-07-10T00:21:36.956Z] DEBUG [4702]  : Running stages of Command CMD-ConfigDeploy from stage 0 to stage 1...
+[2019-07-10T00:21:36.956Z] INFO  [4702]  : Running stage 0 of command CMD-ConfigDeploy...
+[2019-07-10T00:21:36.957Z] DEBUG [4702]  : Loaded 1 actions for stage 0.
+[2019-07-10T00:21:36.957Z] INFO  [4702]  : Running 1 of 1 actions: ConfigDeployPreHook...
+[2019-07-10T00:21:42.315Z] INFO  [4702]  : Running stage 1 of command CMD-ConfigDeploy...
+[2019-07-10T00:21:42.315Z] DEBUG [4702]  : Loaded 2 actions for stage 1.
+[2019-07-10T00:21:42.315Z] INFO  [4702]  : Running 1 of 2 actions: ConfigDeployEnactHook...
+[2019-07-10T00:21:50.432Z] INFO  [4702]  : Running 2 of 2 actions: ConfigDeployPostHook...
+[2019-07-10T00:21:50.432Z] INFO  [4702]  : Running AddonsAfter for command CMD-ConfigDeploy...
+[2019-07-10T00:21:50.603Z] INFO  [4702]  : Command CMD-ConfigDeploy succeeded!
+[2019-07-10T00:21:50.604Z] INFO  [4702]  : Command processor returning results: 
 {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
-[2019-07-07T21:32:37.546Z] DEBUG [3176]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
-[2019-07-07T21:32:37.546Z] DEBUG [3176]  : Checking if the command processor should execute...
-[2019-07-07T21:32:37.548Z] DEBUG [3176]  : Checking whether the command is applicable to instance (i-0e98352e9d637cc13)..
-[2019-07-07T21:32:37.548Z] INFO  [3176]  : Command is applicable to this instance (i-0e98352e9d637cc13)..
-[2019-07-07T21:32:37.548Z] DEBUG [3176]  : Checking if the received command stage is valid..
-[2019-07-07T21:32:37.548Z] INFO  [3176]  : No stage_num in command. Valid stage..
-[2019-07-07T21:32:37.548Z] INFO  [3176]  : Received command CMD-Startup: {"execution_data"=>"{\"leader_election\":\"true\"}", "instance_ids"=>["i-0e98352e9d637cc13"], "command_name"=>"CMD-Startup", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"8003a2bc-a0fe-11e9-a488-39b9664ee43d"}
-[2019-07-07T21:32:37.548Z] INFO  [3176]  : Command processor should execute command.
-[2019-07-07T21:32:37.548Z] DEBUG [3176]  : Storing current stage..
-[2019-07-07T21:32:37.548Z] DEBUG [3176]  : Stage_num does not exist. Not saving null stage. Returning..
-[2019-07-07T21:32:37.548Z] DEBUG [3176]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
-[2019-07-07T21:32:37.548Z] DEBUG [3176]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
-[2019-07-07T21:32:37.549Z] DEBUG [3176]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
-[2019-07-07T21:32:37.550Z] INFO  [3176]  : Found enabled addons: ["logstreaming", "logpublish"].
-[2019-07-07T21:32:37.551Z] INFO  [3176]  : Updating Command definition of addon logstreaming.
-[2019-07-07T21:32:37.551Z] INFO  [3176]  : Updating Command definition of addon logpublish.
-[2019-07-07T21:32:37.551Z] DEBUG [3176]  : Refreshing metadata...
-[2019-07-07T21:32:37.904Z] DEBUG [3176]  : Refreshed environment metadata.
-[2019-07-07T21:32:37.904Z] INFO  [3176]  : Recreated directory /opt/elasticbeanstalk/deploy/configuration/.
-[2019-07-07T21:32:37.904Z] DEBUG [3176]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_AppSourceUrlFileContent||url..
-[2019-07-07T21:32:37.905Z] INFO  [3176]  : Created appsource url file at /opt/elasticbeanstalk/deploy/configuration/appsourceurl.
-[2019-07-07T21:32:37.905Z] DEBUG [3176]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent..
-[2019-07-07T21:32:37.906Z] INFO  [3176]  : Created container config file at /opt/elasticbeanstalk/deploy/configuration/containerconfiguration.
-[2019-07-07T21:32:37.906Z] DEBUG [3176]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
-[2019-07-07T21:32:37.907Z] DEBUG [3176]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
-[2019-07-07T21:32:37.908Z] INFO  [3176]  : Found enabled addons: ["logstreaming", "logpublish"].
-[2019-07-07T21:32:37.908Z] INFO  [3176]  : Updating Command definition of addon logstreaming.
-[2019-07-07T21:32:37.909Z] INFO  [3176]  : Updating Command definition of addon logpublish.
-[2019-07-07T21:32:37.909Z] DEBUG [3176]  : Loaded definition of Command CMD-Startup.
-[2019-07-07T21:32:37.909Z] INFO  [3176]  : Executing Application deployment
-[2019-07-07T21:32:37.909Z] INFO  [3176]  : Executing command: CMD-Startup...
-[2019-07-07T21:32:37.909Z] INFO  [3176]  : Executing command CMD-Startup activities...
-[2019-07-07T21:32:37.909Z] DEBUG [3176]  : Setting environment variables..
-[2019-07-07T21:32:37.909Z] INFO  [3176]  : Running AddonsBefore for command CMD-Startup...
-[2019-07-07T21:32:38.037Z] DEBUG [3176]  : Running stages of Command CMD-Startup from stage 0 to stage 1...
-[2019-07-07T21:32:38.037Z] INFO  [3176]  : Running stage 0 of command CMD-Startup...
-[2019-07-07T21:32:38.037Z] INFO  [3176]  : Running leader election...
-[2019-07-07T21:32:38.385Z] INFO  [3176]  : Instance is Leader.
-[2019-07-07T21:32:38.385Z] DEBUG [3176]  : Loaded 7 actions for stage 0.
-[2019-07-07T21:32:38.385Z] INFO  [3176]  : Running 1 of 7 actions: HealthdLogRotation...
-[2019-07-07T21:32:38.391Z] INFO  [3176]  : Running 2 of 7 actions: HealthdHTTPDLogging...
-[2019-07-07T21:32:38.391Z] INFO  [3176]  : Running 3 of 7 actions: HealthdNginxLogging...
-[2019-07-07T21:32:38.392Z] INFO  [3176]  : Running 4 of 7 actions: EbExtensionPreBuild...
-[2019-07-07T21:32:38.758Z] INFO  [3176]  : Running 5 of 7 actions: AppDeployPreHook...
-[2019-07-07T21:32:56.748Z] INFO  [3176]  : Running 6 of 7 actions: EbExtensionPostBuild...
-[2019-07-07T21:32:57.116Z] INFO  [3176]  : Running 7 of 7 actions: InfraCleanEbExtension...
-[2019-07-07T21:32:57.133Z] INFO  [3176]  : Running stage 1 of command CMD-Startup...
-[2019-07-07T21:32:57.133Z] DEBUG [3176]  : Loaded 3 actions for stage 1.
-[2019-07-07T21:32:57.133Z] INFO  [3176]  : Running 1 of 3 actions: AppDeployEnactHook...
-[2019-07-07T21:33:05.887Z] INFO  [3176]  : Running 2 of 3 actions: AppDeployPostHook...
-[2019-07-07T21:33:05.888Z] INFO  [3176]  : Running 3 of 3 actions: PostInitHook...
-[2019-07-07T21:33:05.888Z] INFO  [3176]  : Running AddonsAfter for command CMD-Startup...
-[2019-07-07T21:33:06.184Z] INFO  [3176]  : Command CMD-Startup succeeded!
-[2019-07-07T21:33:06.184Z] INFO  [3176]  : Command processor returning results: 
+[2019-07-10T00:22:53.277Z] DEBUG [5180]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-07-10T00:22:53.277Z] DEBUG [5180]  : Checking if the command processor should execute...
+[2019-07-10T00:22:53.279Z] DEBUG [5180]  : Checking whether the command is applicable to instance (i-0596be3d055941d46)..
+[2019-07-10T00:22:53.279Z] INFO  [5180]  : Command is applicable to this instance (i-0596be3d055941d46)..
+[2019-07-10T00:22:53.279Z] DEBUG [5180]  : Checking if the received command stage is valid..
+[2019-07-10T00:22:53.279Z] INFO  [5180]  : No stage_num in command. Valid stage..
+[2019-07-10T00:22:53.279Z] INFO  [5180]  : Received command CMD-AppDeploy: {"execution_data"=>"{\"leader_election\":\"true\"}", "instance_ids"=>["i-0596be3d055941d46"], "data"=>"manifest_1562718170089", "command_name"=>"CMD-AppDeploy", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"d827e7be-a2a8-11e9-a488-39b9664ee43d"}
+[2019-07-10T00:22:53.279Z] INFO  [5180]  : Command processor should execute command.
+[2019-07-10T00:22:53.279Z] DEBUG [5180]  : Storing current stage..
+[2019-07-10T00:22:53.279Z] DEBUG [5180]  : Stage_num does not exist. Not saving null stage. Returning..
+[2019-07-10T00:22:53.279Z] DEBUG [5180]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-07-10T00:22:53.280Z] DEBUG [5180]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-07-10T00:22:53.280Z] DEBUG [5180]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-07-10T00:22:53.281Z] INFO  [5180]  : Found enabled addons: ["logstreaming", "logpublish"].
+[2019-07-10T00:22:53.282Z] INFO  [5180]  : Updating Command definition of addon logstreaming.
+[2019-07-10T00:22:53.282Z] INFO  [5180]  : Updating Command definition of addon logpublish.
+[2019-07-10T00:22:53.282Z] DEBUG [5180]  : Refreshing metadata...
+[2019-07-10T00:22:53.631Z] DEBUG [5180]  : Refreshed environment metadata.
+[2019-07-10T00:22:53.632Z] INFO  [5180]  : Recreated directory /opt/elasticbeanstalk/deploy/configuration/.
+[2019-07-10T00:22:53.632Z] DEBUG [5180]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_AppSourceUrlFileContent||url..
+[2019-07-10T00:22:53.633Z] INFO  [5180]  : Created appsource url file at /opt/elasticbeanstalk/deploy/configuration/appsourceurl.
+[2019-07-10T00:22:53.633Z] DEBUG [5180]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent..
+[2019-07-10T00:22:53.634Z] INFO  [5180]  : Created container config file at /opt/elasticbeanstalk/deploy/configuration/containerconfiguration.
+[2019-07-10T00:22:53.634Z] DEBUG [5180]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-07-10T00:22:53.634Z] DEBUG [5180]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-07-10T00:22:53.635Z] INFO  [5180]  : Found enabled addons: ["logstreaming", "logpublish"].
+[2019-07-10T00:22:53.636Z] INFO  [5180]  : Updating Command definition of addon logstreaming.
+[2019-07-10T00:22:53.636Z] INFO  [5180]  : Updating Command definition of addon logpublish.
+[2019-07-10T00:22:53.636Z] DEBUG [5180]  : Retrieving metadata for key: AWS::CloudFormation::Init||Infra-WriteApplication2||files..
+[2019-07-10T00:22:53.637Z] DEBUG [5180]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||ManifestFileS3Key..
+[2019-07-10T00:22:53.733Z] INFO  [5180]  : Loading manifest from bucket 'elasticbeanstalk-us-east-2-874785680383' using computed S3 key 'resources/environments/e-gwzt4tmsaf/_runtime/versions/manifest_1562718170089'.
+[2019-07-10T00:22:53.788Z] INFO  [5180]  : Updated manifest cache: deployment ID 8 and serial 8.
+[2019-07-10T00:22:53.788Z] DEBUG [5180]  : Loaded definition of Command CMD-AppDeploy.
+[2019-07-10T00:22:53.788Z] INFO  [5180]  : Executing Application update
+[2019-07-10T00:22:53.789Z] INFO  [5180]  : Executing command: CMD-AppDeploy...
+[2019-07-10T00:22:53.789Z] INFO  [5180]  : Executing command CMD-AppDeploy activities...
+[2019-07-10T00:22:53.789Z] DEBUG [5180]  : Setting environment variables..
+[2019-07-10T00:22:53.789Z] INFO  [5180]  : Running AddonsBefore for command CMD-AppDeploy...
+[2019-07-10T00:22:53.913Z] DEBUG [5180]  : Running stages of Command CMD-AppDeploy from stage 0 to stage 1...
+[2019-07-10T00:22:53.913Z] INFO  [5180]  : Running stage 0 of command CMD-AppDeploy...
+[2019-07-10T00:22:53.913Z] INFO  [5180]  : Running leader election...
+[2019-07-10T00:22:54.257Z] INFO  [5180]  : Instance is Leader.
+[2019-07-10T00:22:54.257Z] DEBUG [5180]  : Loaded 5 actions for stage 0.
+[2019-07-10T00:22:54.257Z] INFO  [5180]  : Running 1 of 5 actions: DownloadSourceBundle...
+[2019-07-10T00:22:54.556Z] INFO  [5180]  : Running 2 of 5 actions: EbExtensionPreBuild...
+[2019-07-10T00:22:54.920Z] INFO  [5180]  : Running 3 of 5 actions: AppDeployPreHook...
+[2019-07-10T00:23:11.391Z] INFO  [5180]  : Running 4 of 5 actions: EbExtensionPostBuild...
+[2019-07-10T00:23:11.755Z] INFO  [5180]  : Running 5 of 5 actions: InfraCleanEbextension...
+[2019-07-10T00:23:11.773Z] INFO  [5180]  : Running stage 1 of command CMD-AppDeploy...
+[2019-07-10T00:23:11.773Z] DEBUG [5180]  : Loaded 2 actions for stage 1.
+[2019-07-10T00:23:11.773Z] INFO  [5180]  : Running 1 of 2 actions: AppDeployEnactHook...
+[2019-07-10T00:23:20.388Z] INFO  [5180]  : Running 2 of 2 actions: AppDeployPostHook...
+[2019-07-10T00:23:20.388Z] INFO  [5180]  : Running AddonsAfter for command CMD-AppDeploy...
+[2019-07-10T00:23:20.559Z] INFO  [5180]  : Command CMD-AppDeploy succeeded!
+[2019-07-10T00:23:20.560Z] INFO  [5180]  : Command processor returning results: 
 {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
-[2019-07-07T23:49:02.687Z] DEBUG [8525]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
-[2019-07-07T23:49:02.687Z] DEBUG [8525]  : Checking if the command processor should execute...
-[2019-07-07T23:49:02.690Z] DEBUG [8525]  : Checking whether the command is applicable to instance (i-0e98352e9d637cc13)..
-[2019-07-07T23:49:02.690Z] INFO  [8525]  : Command is applicable to this instance (i-0e98352e9d637cc13)..
-[2019-07-07T23:49:02.690Z] DEBUG [8525]  : Checking if the received command stage is valid..
-[2019-07-07T23:49:02.690Z] INFO  [8525]  : No stage_num in command. Valid stage..
-[2019-07-07T23:49:02.690Z] INFO  [8525]  : Received command CMD-TailLogs: {"execution_data"=>"*", "instance_ids"=>["i-0e98352e9d637cc13"], "data"=>"cb918c54-a111-11e9-8fe0-911002ae91df", "command_name"=>"CMD-TailLogs", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"cb918c54-a111-11e9-8fe0-911002ae91df"}
-[2019-07-07T23:49:02.690Z] INFO  [8525]  : Command processor should execute command.
-[2019-07-07T23:49:02.690Z] DEBUG [8525]  : Storing current stage..
-[2019-07-07T23:49:02.690Z] DEBUG [8525]  : Stage_num does not exist. Not saving null stage. Returning..
-[2019-07-07T23:49:02.690Z] DEBUG [8525]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
-[2019-07-07T23:49:02.690Z] DEBUG [8525]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
-[2019-07-07T23:49:02.691Z] DEBUG [8525]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
-[2019-07-07T23:49:02.692Z] INFO  [8525]  : Found enabled addons: ["logstreaming", "logpublish"].
-[2019-07-07T23:49:02.693Z] INFO  [8525]  : Updating Command definition of addon logstreaming.
-[2019-07-07T23:49:02.693Z] INFO  [8525]  : Updating Command definition of addon logpublish.
-[2019-07-07T23:49:02.693Z] DEBUG [8525]  : Loaded definition of Command CMD-TailLogs.
-[2019-07-07T23:49:02.693Z] INFO  [8525]  : Executing CMD-TailLogs
-[2019-07-07T23:49:02.693Z] INFO  [8525]  : Executing command: CMD-TailLogs...
-[2019-07-07T23:49:02.693Z] INFO  [8525]  : Executing command CMD-TailLogs activities...
-[2019-07-07T23:49:02.693Z] DEBUG [8525]  : Setting environment variables..
-[2019-07-07T23:49:02.693Z] INFO  [8525]  : Running AddonsBefore for command CMD-TailLogs...
-[2019-07-07T23:49:02.693Z] DEBUG [8525]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
-[2019-07-07T23:49:02.693Z] INFO  [8525]  : Running stage 0 of command CMD-TailLogs...
-[2019-07-07T23:49:02.694Z] DEBUG [8525]  : Loaded 1 actions for stage 0.
-[2019-07-07T23:49:02.694Z] INFO  [8525]  : Running 1 of 1 actions: TailLogs...
+[2019-07-10T00:30:30.006Z] DEBUG [6030]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-07-10T00:30:30.007Z] DEBUG [6030]  : Checking if the command processor should execute...
+[2019-07-10T00:30:30.009Z] DEBUG [6030]  : Checking whether the command is applicable to instance (i-0596be3d055941d46)..
+[2019-07-10T00:30:30.009Z] INFO  [6030]  : Command is applicable to this instance (i-0596be3d055941d46)..
+[2019-07-10T00:30:30.009Z] DEBUG [6030]  : Checking if the received command stage is valid..
+[2019-07-10T00:30:30.009Z] INFO  [6030]  : No stage_num in command. Valid stage..
+[2019-07-10T00:30:30.009Z] INFO  [6030]  : Received command CMD-TailLogs: {"execution_data"=>"*", "instance_ids"=>["i-0596be3d055941d46"], "data"=>"eaefaf59-a2a9-11e9-a991-5d225b740740", "command_name"=>"CMD-TailLogs", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"eaefaf59-a2a9-11e9-a991-5d225b740740"}
+[2019-07-10T00:30:30.009Z] INFO  [6030]  : Command processor should execute command.
+[2019-07-10T00:30:30.009Z] DEBUG [6030]  : Storing current stage..
+[2019-07-10T00:30:30.009Z] DEBUG [6030]  : Stage_num does not exist. Not saving null stage. Returning..
+[2019-07-10T00:30:30.009Z] DEBUG [6030]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-07-10T00:30:30.009Z] DEBUG [6030]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-07-10T00:30:30.010Z] DEBUG [6030]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-07-10T00:30:30.011Z] INFO  [6030]  : Found enabled addons: ["logstreaming", "logpublish"].
+[2019-07-10T00:30:30.012Z] INFO  [6030]  : Updating Command definition of addon logstreaming.
+[2019-07-10T00:30:30.012Z] INFO  [6030]  : Updating Command definition of addon logpublish.
+[2019-07-10T00:30:30.012Z] DEBUG [6030]  : Loaded definition of Command CMD-TailLogs.
+[2019-07-10T00:30:30.012Z] INFO  [6030]  : Executing CMD-TailLogs
+[2019-07-10T00:30:30.012Z] INFO  [6030]  : Executing command: CMD-TailLogs...
+[2019-07-10T00:30:30.012Z] INFO  [6030]  : Executing command CMD-TailLogs activities...
+[2019-07-10T00:30:30.012Z] DEBUG [6030]  : Setting environment variables..
+[2019-07-10T00:30:30.012Z] INFO  [6030]  : Running AddonsBefore for command CMD-TailLogs...
+[2019-07-10T00:30:30.013Z] DEBUG [6030]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2019-07-10T00:30:30.013Z] INFO  [6030]  : Running stage 0 of command CMD-TailLogs...
+[2019-07-10T00:30:30.013Z] DEBUG [6030]  : Loaded 1 actions for stage 0.
+[2019-07-10T00:30:30.013Z] INFO  [6030]  : Running 1 of 1 actions: TailLogs...
 
 
 
