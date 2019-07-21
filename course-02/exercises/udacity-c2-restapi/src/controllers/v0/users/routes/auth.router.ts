@@ -26,7 +26,7 @@ function generateJWT(user: User): string {
 }
 
 export function requireAuth(req: Request, res: Response, next: NextFunction) {
-    return next();
+    //return next();
     if (!req.headers || !req.headers.authorization){
         return res.status(401).send({ message: 'No authorization headers.' });
     }
@@ -82,7 +82,7 @@ router.post('/login', async (req: Request, res: Response) => {
     // Generate JWT
     const jwt = generateJWT(user);
 
-    res.status(200).send({ auth: true, token: jwt, user: user});
+    res.status(200).send({ auth: true, token: jwt, user: user.short()});
 });
 
 //register a new user
