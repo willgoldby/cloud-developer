@@ -45,7 +45,6 @@ export function getGetSignedUrl( key: string ): string{
  *    a url as a string
  */
 export function getPutSignedUrl( key: string ){
-
 const param = { Bucket: c.aws_media_bucket, Key: key, Expires: 60*5 };
 const url: string = s3.getSignedUrl('putObject', param);
   return url;
