@@ -13,12 +13,13 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
   // Use the body parser middleware for post requests
   app.use(bodyParser.json());
 
+  //TRYING TO VALIDATE IMAGE URL. 
 app.get("/filteredimage", (req: Request, res: Response) => {
   let { image_url } = req.query;
   if ( !image_url ){
     return res.status(400).send(`image url is required.`);
   }
-  res.send(`this is the url ` + {image_url} + `.`);
+  res.send(`this is the url ` + { image_url } + `.`);
 });
 
 
