@@ -13,13 +13,21 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
   // Use the body parser middleware for post requests
   app.use(bodyParser.json());
 
-  //TRYING TO VALIDATE IMAGE URL. 
 app.get("/filteredimage", (req: Request, res: Response) => {
+  // 1. validate the image_url query
   let { image_url } = req.query;
   if ( !image_url ){
     return res.status(400).send(`image url is required.`);
   }
-  res.send(`this is the url ` + { image_url } + `.`);
+  
+  // 2. call filterImageFromURL(image_url) to filter the image
+  const image_path = filterImageFromURL(image_url);
+  
+  // 3. send the resulting file in the response
+  image_path.then(strValue => {
+    res.sendFile(strValue)
+  });
+
 });
 
 
@@ -28,9 +36,8 @@ app.get("/filteredimage", (req: Request, res: Response) => {
   // endpoint to filter an image from a public url.
   // IT SHOULD
   //    
-  //    1. validate the image_url query
-  //    2. call filterImageFromURL(image_url) to filter the image
-  //    3. send the resulting file in the response
+  //    
+  
   //    4. deletes any files on the server on finish of the response
   // QUERY PARAMATERS
   //    image_url: URL of a publicly accessible image
@@ -54,3 +61,14 @@ app.get("/filteredimage", (req: Request, res: Response) => {
       console.log( `press CTRL+C to stop server` );
   } );
 })();
+
+
+
+
+// // image_path is Promise<string>
+// const image_path = filterImageFromURL(image_url);
+
+// // This should send file
+// image_path.then(strValue => {
+//   res.sendFile(strValue)
+// });
