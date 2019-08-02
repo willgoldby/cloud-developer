@@ -42,7 +42,7 @@ app.get("/filteredimage", ( req: Request, res: Response) => {
   .then(() => console.log(image_location));
   
   //4. deletes any files on the server on finish of the response
-  deleteLocalFiles(image_location);
+deleteLocalFiles(image_location);
 
 });
 
