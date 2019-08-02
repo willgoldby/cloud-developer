@@ -1,4 +1,5 @@
-import express from 'express';
+import express, { Router, Request, Response } from 'express';
+
 import bodyParser from 'body-parser';
 import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
@@ -11,9 +12,9 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
   const port = process.env.PORT || 8082;
   
   // Use the body parser middleware for post requests
-  app.use(bodyParser.json());
+  app.use(bodyParser.json())
 
-app.get("/filteredimage", (req: Request, res: Response) => {
+app.get("/filteredimage", ( req: Request, res: Response) => {
   // 1. validate the image_url query
   let { image_url } = req.query;
   if ( !image_url ){
@@ -24,11 +25,30 @@ app.get("/filteredimage", (req: Request, res: Response) => {
   const image_path = filterImageFromURL(image_url);
   
   // 3. send the resulting file in the response
+  
+  // Create array to hold file paths.
+  let image_location: Array<string> = [];
+  
+  // Get promise value into a string
   image_path.then(strValue => {
-    res.sendFile(strValue)
-  });
+    //send file to server
+    res.status(200).sendFile(strValue)
+    // print string of file location
+    console.log(strValue);
+    // Push file location into the array
+    image_location.push(strValue);
+  })
+  // Print the array's values
+  .then(() => console.log(image_location));
+  
+  //4. deletes any files on the server on finish of the response
+  deleteLocalFiles(image_location);
 
 });
+
+  // 4. 
+  //image_path.then(strValue => {
+  
 
 
   // @TODO1 IMPLEMENT A RESTFUL ENDPOINT
@@ -61,14 +81,3 @@ app.get("/filteredimage", (req: Request, res: Response) => {
       console.log( `press CTRL+C to stop server` );
   } );
 })();
-
-
-
-
-// // image_path is Promise<string>
-// const image_path = filterImageFromURL(image_url);
-
-// // This should send file
-// image_path.then(strValue => {
-//   res.sendFile(strValue)
-// });
